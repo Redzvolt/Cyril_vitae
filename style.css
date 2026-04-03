@@ -1,0 +1,92 @@
+/* style.css sert au style général (header, footer, aside,...) du site sauf la partie codage */
+/* codage.css sert au style nécessaire à la partie codage du site */
+/* interactions.css sert pour les animations, les transformations et la portabilité */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding: 12px;
+}
+
+.nav_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn {
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.reseaux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  line-height: 1.5;
+}
+
+.titre {
+  text-align: center;
+  width: 100%;
+}
+
+.nav_footer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link_footer {
+  height: 100%;
+  width: 14.28%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.cv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
