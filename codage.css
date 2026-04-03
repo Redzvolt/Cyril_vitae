@@ -1,0 +1,11 @@
+/* style.css sert au style général (header, footer, aside,...) du site sauf la partie codage */
+/* codage.css sert au style nécessaire à la partie codage du site */
+/* interactions.css sert pour les animations, les transformations et la portabilité */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
